@@ -133,11 +133,11 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @software{hewryk_ontology_work_2025,
-  author       = {Hewryk, Oresta},
+  author       = {Hewryk, Oresta S. I. and Pan, Ian Tong and Romano, Joseph D.},
   title        = {{Ontology Work}: A Python toolkit for phytotherapy ontology enrichment},
   year         = {2025},
   publisher    = {GitHub},
-  url          = {https://github.com/<your-org>/ontology-work}
+  url          = {https://github.com/RomanoLab/ontology-work}
 }
 ```
 
