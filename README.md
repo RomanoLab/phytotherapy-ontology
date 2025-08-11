@@ -13,8 +13,7 @@
 5. [Workflow Details](#workflow-details)
 6. [Extending the Toolkit](#extending-the-toolkit)
 7. [Contributing](#contributing)
-8. [License](#license)
-9. [Citation](#citation)
+8. [Citation](#citation)
 
 ---
 
@@ -121,12 +120,6 @@ optional arguments:
 
 ---
 
-## License
-
-Released under the **MIT License** – see [`LICENSE`](LICENSE) for details.
-
----
-
 ## Citation
 
 If you use this code in your research, please cite:
@@ -141,6 +134,3 @@ If you use this code in your research, please cite:
 }
 ```
 
----
-
-*Happy ontologising!*
