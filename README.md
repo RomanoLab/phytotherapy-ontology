@@ -36,7 +36,7 @@ This repository converts that exploratory notebook into **clean, script-first co
 .
 ├── src/
 │   └── ontology_work.py      # main script (refactored notebook code)
-├── data/                     # put your ontologies / CSVs here (git-ignored)
+├── data/                     # ontologies / CSVs here 
 ├── requirements.txt          # pinned dependencies for SRC.py
 ├── CTAPred/
 │   └── predict_targets.py    # CTAPred pipeline drivers script
@@ -48,12 +48,11 @@ This repository converts that exploratory notebook into **clean, script-first co
 
 | File / Dir             | Purpose                                                     |
 | ---------------------- | ----------------------------------------------------------- |
-| `src/ontology_work.py` | Entry-point that orchestrates parsing, enrichment & metrics |
+| `SRC.py`               | Entry-point that orchestrates parsing, enrichment & metrics |
 | `data/`                | Placeholder for ontology TTL/RDF files and CSV inputs       |
 | `requirements.txt`     | Packages required to run ontology workflow                  |
 | `CTAPred/`             | Modified CTAPred pipeline for predicting protein-phytochemical interactions |
 
-> **Note:** Feel free to break the monolithic script into modules once the API stabilises (e.g. `metrics.py`, `enrich.py`, `cli.py`).
 
 ---
 
