@@ -1099,8 +1099,7 @@ def Query_conductSS(log, args, query_fps, reference_fps):
 
 def rankTargets(log, args, reference_dataset_pd, dest):
     """
-    Retrieving ranked potential targets using the high-performance Polars library,
-    keeping only the top 50 ranks for each chemical.
+    Retrieving ranked potential targets using Polars
     """
     desc = '\nRanking the potential targets for each SMILES string using Polars.\n'
     print(desc, file=log)
@@ -1130,7 +1129,7 @@ def rankTargets(log, args, reference_dataset_pd, dest):
             pl.col('mean_score').rank(method='min', descending=True).over('np_id').alias('rank')
         )
 
-        filtered_df = ranked_df#.filter(pl.col('rank') <= 500)
+        filtered_df = ranked_df# append .filter(pl.col('rank') <= 50) to only keep top 50 results
 
         chembl_ids = df.select(['uniprot', 'np_id', 'target_chembl_id']).unique()
         final_df = filtered_df.join(chembl_ids, on=['uniprot', 'np_id'])
