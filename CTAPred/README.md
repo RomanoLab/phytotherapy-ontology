@@ -1,6 +1,6 @@
 # Modified CTAPred Pipeline
 
-CTAPred pipeline adapted for parallelization by splitting input dataset and processing each chunk on a separate core which massively reduces runtime for large data inputs. Also replaces some Pandas functionality with Polars operations for greater efficiency. 
+CTAPred pipeline for predicting protein-phytotherapy interactions parallelized by splitting input dataset and processing each chunk on a separate core which massively reduces runtime for large data inputs. Also replaces some Pandas functionality with Polars operations for greater efficiency. 
 
 ## Usage
 ```

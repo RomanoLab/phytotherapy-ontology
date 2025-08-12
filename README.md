@@ -50,7 +50,8 @@ This repository converts that exploratory notebook into **clean, script-first co
 | ---------------------- | ----------------------------------------------------------- |
 | `src/ontology_work.py` | Entry-point that orchestrates parsing, enrichment & metrics |
 | `data/`                | Placeholder for ontology TTL/RDF files and CSV inputs       |
-| `requirements.txt`     | Minimal list: `rdflib`, `pandas`, `tqdm`, `click`           |
+| `requirements.txt`     | Packages required to run ontology workflow                  |
+| `CTAPred/`             | Modified CTAPred pipeline for predicting protein-phytochemical interactions |
 
 > **Note:** Feel free to break the monolithic script into modules once the API stabilises (e.g. `metrics.py`, `enrich.py`, `cli.py`).
 
