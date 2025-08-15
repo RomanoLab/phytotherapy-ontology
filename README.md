@@ -35,16 +35,17 @@ This repository converts that exploratory notebook into **clean, script-first co
 ```
 .
 ├── src/
-│   └── ontology_work.py      # main script (refactored notebook code)
-├── data/                     # ontologies / CSVs here 
-├── requirements.txt          # pinned dependencies for SRC.py
-├── CTAPred/
-│   └── predict_targets.py    # CTAPred pipeline drivers script
-│   └── SharedFunc.py         # CTApred helper functions
-│   └── requirements.txt      # dependencies for CTAPred pipeline
-│   └── README.md             # instructions for using the CTAPred pipeline
-└── README.md                 # you are here
-```
+│   └── ontology_work.py        # main script (refactored notebook code)
+├── data/                       # ontologies / CSVs here 
+├── requirements.txt            # pinned dependencies for SRC.py
+├── CTAPred/  
+│   └── predict_targets.py      # CTAPred pipeline drivers script
+│   └── SharedFunc.py           # CTApred helper functions
+│   └── requirements.txt        # dependencies for CTAPred pipeline
+│   └── QueryList1_smiles.csv   # CTAPred input containing all phytochemicals
+│   └── README.md               # instructions for using the CTAPred pipeline
+└── README.md                   # you are here
+```  
 
 | File / Dir             | Purpose                                                     |
 | ---------------------- | ----------------------------------------------------------- |
